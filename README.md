@@ -1,4 +1,8 @@
-##### Warning: I do not consider myself a networking expert. Do not take my words religiously. If I'm mistaken anywhere in this text or the code, please let me know. 
+##### If your driver supports 802.11s then you should _NOT_ be looking into this solution. This is a ROUTING solution (aka NAT) and you are _GUARANTEED_ to face problems this way.
+
+##### The code hosted here is more of a POC rather than a solution.
+
+##### Warning: I do not consider myself a networking expert. Do not take my words religiously. If I'm mistaken anywhere in this text or the code, please let me know.
 
 ## This project uses the following program written by Jouni Malinen:
 hostapd (https://w1.fi/hostapd/) for access point creation and authentication (WPA etc.)
